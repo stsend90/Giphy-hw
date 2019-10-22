@@ -9,24 +9,23 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <h1>GIF Generator</h1>
-    <h2>Click on one of these buttons or create your own!</h2>
-    <div id="buttons-here"></div>
-        <form id="add-button">Add new search button: 
-            <input type="text" value id="input" placeholder=""><br>
-            <input type="submit" id="submit-button" value="Submit">
-        </form>
-        <div id="gifs-here"></div>
-        
-        <script
-          src="https://code.jquery.com/jquery-3.2.1.min.js"
-          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-          crossorigin="anonymous"></script>
-        <script src="assets/javascript/app.js"></script>
-        
-    <footer>
-        <div class="container">
-            \_^.~_/
-    </footer>
+    <main>
+        <h1>Anime-Giphs!</h1>
+        <p class="lead">Click on buttons to see giph's and click the giph's to see the magic!<br>Add/search your own giph's on search bar.</p>
+        <hr class="my-4">
+        <div id="wrapper">
+            <div class = "buttons-original"></div>
+            <form id="giphy-form">
+                <input type="text" class="giph-name">
+                <br>
+                <input type="submit" class="add-giph" value="Submit!">
+            </form>
+            <div class="giphGoesHere"></div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" 
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" 
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
 </html>

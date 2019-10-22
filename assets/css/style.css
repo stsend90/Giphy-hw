@@ -1,39 +1,40 @@
-* {
-    box-sizing: border-box;
-  }
-  body {
-    padding-top: 50px;
-    text-align: center;
-  }
-  
-  .btn {
-    line-height: 10;
-  }
-  
-  .jumbotron .h1, .jumbotron h1 {
-      font-size: 50px;
-      text-align: center;
-    }
-  
-  #buttons-go-here {
-    padding: 20px;
-  }
-  #add-button {
-    padding: 20px;
-  }
-  #submit-button {
-    margin: 15px;
-  }
-  
-  footer {
+main{
     width: 100%;
-    clear: both;
-    font-size: 12px;
-    color: black;
+    margin: 0 auto;
     text-align: center;
-    background: white;
-    position: fixed;
-    bottom: 0px;
-    padding: 20px;
-    
+  }
+  
+  #wrapper{
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+  }
+  
+  .giphD {
+    display: inline-table;
+    padding: 10px;
+  }
+
+  .gImage {
+      width: 250px;
+      height: 250px;
+  }
+  
+  .button {
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  form {
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .giph-name {
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  .add-giph {
+   margin: 5px;
   }
