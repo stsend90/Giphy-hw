@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    padding-top: 50px;
+    text-align: center;
+  }
+  
+  .btn {
+    line-height: 10;
+  }
+  
+  .jumbotron .h1, .jumbotron h1 {
+      font-size: 50px;
+      text-align: center;
+    }
+  
+  #buttons-go-here {
+    padding: 20px;
+  }
+  #add-button {
+    padding: 20px;
+  }
+  #submit-button {
+    margin: 15px;
+  }
+  
+  footer {
+    width: 100%;
+    clear: both;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    background: white;
+    position: fixed;
+    bottom: 0px;
+    padding: 20px;
+    
+  }
