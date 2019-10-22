@@ -1,9 +1,30 @@
-main{
+body {
     width: 100%;
     margin: 0 auto;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background: url(https://images5.alphacoders.com/874/thumb-1920-874737.jpg);
+    color: red;
   }
   
+  h1 {
+    font-size: 100px
+  }
+
+  .backTop {
+    background: black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+
+  p {
+    text-align: center;
+    border-radius: 50px;
+    width: 100px;
+    background: black;
+  }
+
   #wrapper{
     margin: 0 auto;
     width: 90%;
@@ -23,11 +44,16 @@ main{
   .button {
     padding: 5px;
     margin: 5px;
+    cursor: pointer;
   }
   
   form {
     padding: 5px;
     margin: 5px;
+  }
+
+  .add-giph{
+    cursor: pointer;
   }
   
   .giph-name {
