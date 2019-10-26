@@ -21,8 +21,8 @@ body {
   p {
     text-align: center;
     border-radius: 50px;
-    width: 100px;
-    background: black;
+    width: 150px;
+    /* background: black; */
   }
 
   #wrapper{
@@ -45,6 +45,8 @@ body {
     padding: 5px;
     margin: 5px;
     cursor: pointer;
+    font-weight: bold;
+    color: red;
   }
   
   form {
@@ -52,8 +54,17 @@ body {
     margin: 5px;
   }
 
+  .giphGoesHere {
+    border-radius: 50px;
+    background: white;
+  }
+
   .add-giph{
     cursor: pointer;
+    font-weight: bold;
+    color: red;
+    
+    
   }
   
   .giph-name {
